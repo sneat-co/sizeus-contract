@@ -20,10 +20,12 @@
 		"dist"
 	],
 	"scripts": {
-		"build": "tsc",
-		"typecheck": "tsc --noEmit"
+		"build": "tsc -p tsconfig.build.json",
+		"typecheck": "tsc --noEmit",
+		"test": "vitest run"
 	},
 	"devDependencies": {
-		"typescript": "~5.9.3"
+		"typescript": "~5.9.3",
+		"vitest": "4.0.9"
 	}
 }

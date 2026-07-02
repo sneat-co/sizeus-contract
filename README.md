@@ -17,8 +17,11 @@ the `sizeus` implementation repo or in `sneat-apps`.
 
 ## Status
 
-Scaffold only: `src/index.ts` exports nothing yet. The size-record and catalog
-DTOs land in a follow-up task.
+The size-record DTO (`ISizeRecord`), history/current-value shapes
+(`ISizeHistory`, `ICurrentSize`), the kit-sheet export row (`IKitSheetRow`),
+and the `currentSizeRecord` helper are exported from `src/index.ts`. See
+`src/lib/` for the individual modules and their `*.spec.ts` round-trip and
+unit tests.
 
 ## Frozen means frozen
 
