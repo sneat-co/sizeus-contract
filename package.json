@@ -1,0 +1,29 @@
+{
+	"name": "@sneat/sizeus-contract",
+	"version": "0.0.1",
+	"description": "Frozen cross-repo contract surface (shared DTOs, consts, briefs) for the sizeus Sneat extension",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sneat-co/sizeus-contract.git"
+	},
+	"type": "module",
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"default": "./dist/index.js"
+		}
+	},
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "tsc",
+		"typecheck": "tsc --noEmit"
+	},
+	"devDependencies": {
+		"typescript": "~5.9.3"
+	}
+}

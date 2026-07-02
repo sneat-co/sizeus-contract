@@ -1,0 +1,17 @@
+# SpecScore Repo Config Schema: https://specscore.md/repo-config
+
+project:
+    title: sizeus-contract
+    host: github.com
+    org: sneat-co
+    repo: sizeus-contract
+publication:
+    default:
+        actions:
+            - stage
+            - commit
+            - push
+    push:
+        allow_branches:
+            - main
+        deny_branches: []
