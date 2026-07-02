@@ -23,6 +23,14 @@ and the `currentSizeRecord` helper are exported from `src/index.ts`. See
 `src/lib/` for the individual modules and their `*.spec.ts` round-trip and
 unit tests.
 
+The versioned MVP size-type catalog (`ISizeTypeCatalog`, `MVP_SIZE_TYPE_CATALOG`
+in `src/lib/catalog/`) covers footwear, body measurements, tops, bottoms,
+accessories, and the football/basketball/cycling/swimming sport kits. Adding a
+new size type is pure data — see the "extension is pure data" tests in
+`src/lib/catalog/mvp-catalog.spec.ts`. Indicative (never authoritative)
+size-system conversion tables with per-pair reliability flags, plus the
+`conversionHint` lookup helper, live in `src/lib/conversion/`.
+
 ## Frozen means frozen
 
 Changes here are breaking changes for every consumer. Keep the surface minimal,
