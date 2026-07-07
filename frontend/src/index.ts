@@ -1,4 +1,4 @@
-// @sneat/sizeus-contract — frozen cross-repo contract surface for the sizeus extension.
+// @sneat/extension-sizeus-contract — frozen cross-repo contract surface for the sizeus extension.
 //
 // Shared DTOs (size records, history/current-value shapes, kit-sheet export
 // rows, …) are exported from here so that both the Sneat super-app extension
