@@ -21,5 +21,5 @@ jobs:
       ref: ${{ inputs.ref }}
       install-command: pnpm install --no-frozen-lockfile --ignore-scripts
       build-command: pnpm exec nx build ext-sizeus-contract
-      publish-command: pnpm exec nx release --yes
+      publish-command: pnpm exec nx release --yes && git push --follow-tags
     secrets: inherit
