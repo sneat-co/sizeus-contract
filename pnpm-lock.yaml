@@ -15,8 +15,8 @@ importers:
         specifier: 22.7.5
         version: 22.7.5(@babel/traverse@7.29.7)(nx@22.7.5)
       '@sneat/core':
-        specifier: 0.22.1
-        version: 0.22.1(@angular/common@22.0.6(@angular/core@21.2.9(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@21.2.9(rxjs@7.8.2))
+        specifier: 0.23.0
+        version: 0.23.0(@angular/common@22.0.6(@angular/core@21.2.9(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@21.2.9(rxjs@7.8.2))
       '@sneat/data':
         specifier: ^0.22.0
         version: 0.22.1(@angular/common@22.0.6(@angular/core@21.2.9(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@21.2.9(rxjs@7.8.2))
@@ -1000,8 +1000,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@sneat/core@0.22.1':
-    resolution: {integrity: sha512-2/nu7t3Utd4YGo6fF9E4nbTP7wC6LnjEQQvNSfo2AqEhWnjgEeV2fx7V09lKvHH0g3G7R+IsnSnovESozsQ2NA==}
+  '@sneat/core@0.23.0':
+    resolution: {integrity: sha512-qgJ8iUHohEd5hGtZCYePeQomi6YRQ/rWdCEnp8Wnl3XVITXeTY5JawQ9ARer78P5Vvk1fHyTJWf4qUeercbA9A==}
     peerDependencies:
       '@angular/common': '>=21.0.0'
       '@angular/core': '>=21.0.0'
@@ -2919,7 +2919,7 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.62.2':
     optional: true
 
-  '@sneat/core@0.22.1(@angular/common@22.0.6(@angular/core@21.2.9(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@21.2.9(rxjs@7.8.2))':
+  '@sneat/core@0.23.0(@angular/common@22.0.6(@angular/core@21.2.9(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@21.2.9(rxjs@7.8.2))':
     dependencies:
       '@angular/common': 22.0.6(@angular/core@21.2.9(rxjs@7.8.2))(rxjs@7.8.2)
       '@angular/core': 21.2.9(rxjs@7.8.2)
